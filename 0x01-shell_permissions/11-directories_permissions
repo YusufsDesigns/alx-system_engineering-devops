@@ -1,2 +1,2 @@
 #!/bin/bash
-find /var/www/html -type d -print0 | xargs -0 chmod 755 
+find /var/www/html -type d -print0 | xargs -0 chmod a+x 
